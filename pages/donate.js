@@ -1,10 +1,10 @@
 import Footer from '@/components/Footer';
 import React from 'react';
 import { useRouter } from 'next/router';
-
+import Navbar from '@/components/Nav';
 
 const Donate = () => {
-    const router = useRouter();
+  const router = useRouter();
 
   const handleStripeClick = () => {
     const stripeUrl = 'https://donate.stripe.com/7sIdUJ42O3te4s8eV2';
@@ -16,31 +16,32 @@ const Donate = () => {
     router.push(paystackUrl);
   };
 
-  
-
   return (
-    <div className="container mx-auto py-12 px-4">
-      <h1 className="text-3xl font-bold mb-8">Donate to Crowdpen</h1>
-      <p className="mb-6">
-        Support African creativity by donating to Crowdpen. Choose your preferred
-        payment provider below.
-      </p>
-      <div className="flex flex-wrap gap-4">
-        <button
-          className="bg-red-600 text-white px-6 py-3 rounded font-medium hover:bg-red-700"
-          onClick={handleStripeClick}
-        >
-          Donate with Stripe
-        </button>
-        <button
-          className="bg-blue-600 text-white px-6 py-3 rounded font-medium hover:bg-blue-700"
-          onClick={handlePaystackClick}
-        >
-          Donate with Paystack
-        </button>
+    <>
+      <Navbar/>
+      <div className="flex flex-col items-center justify-center h-screen py-12 px-4 mb-10">
+        <h1 className="text-5xl font-bold mb-8">Donate to Crowdpen</h1>
+        <p className="mb-6 text-center text-2xl">
+          Support African creativity by donating to Crowdpen. <br/> Choose your preferred
+          payment provider below.
+        </p>
+        <div className="flex flex-wrap gap-4">
+          <button
+            className="bg-red-600 text-white px-6 py-3 rounded font-medium hover:bg-red-700"
+            onClick={handleStripeClick}
+          >
+            Donate with Stripe
+          </button>
+          <button
+            className="bg-blue-600 text-white px-6 py-3 rounded font-medium hover:bg-blue-700"
+            onClick={handlePaystackClick}
+          >
+            Donate with Paystack
+          </button>
+        </div>
       </div>
       <Footer/>
-    </div>
+    </>
   );
 };
 

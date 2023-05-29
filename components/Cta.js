@@ -10,7 +10,7 @@ function Cta() {
     <div className="flex justify-center space-x-6">
       <a
         className="inline-block py-3 px-6 text-black bg-white hover:bg-gray-200 rounded"
-        href="https://join.slack.com/t/crowdpenworkspace/shared_invite/zt-1u3da3b7a-rUkF93gzQLQJNW02H3rGZA"
+        href="https://discord.gg/VEqUXcXm9k"
       >
         Join Us
       </a>

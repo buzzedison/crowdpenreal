@@ -63,7 +63,8 @@ and connect with like-minded individuals. Powered by Bloop Global LLC and Loudsp
     <nav aria-label="Footer Nav" className="mt-12">
       <ul className="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
         <li>
-          <a className="text-gray-700 transition hover:text-gray-700/75" href="https://join.slack.com/t/crowdpenworkspace/shared_invite/zt-1u3da3b7a-rUkF93gzQLQJNW02H3rGZA">
+          <a className="text-gray-700 transition hover:text-gray-700/75" 
+          href="https://discord.gg/VEqUXcXm9k ">
            Join Us
           </a>
         </li>
@@ -79,7 +80,7 @@ and connect with like-minded individuals. Powered by Bloop Global LLC and Loudsp
         
 
         <li>
-          <a className="text-gray-700 transition hover:text-gray-700/75" href="/">
+          <a className="text-gray-700 transition hover:text-gray-700/75" href="/donate">
            Donate
           </a>
         </li>

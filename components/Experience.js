@@ -12,7 +12,7 @@ function Experience() {
           <p className="mb-8">We're not just a platform; we're a revolution in motion. We believe in the power of stories to captivate, inspire, and connect - and we're inviting you to ride this wave with us.</p>
           <a
             className="inline-block py-3 px-6 text-white bg-red-600 hover:bg-red-700 rounded transition-all duration-200"
-            href="https://join.slack.com/t/crowdpenworkspace/shared_invite/zt-1u3da3b7a-rUkF93gzQLQJNW02H3rGZA"
+            href="https://discord.gg/VEqUXcXm9k "
           >
             Join the Revolution
           </a>

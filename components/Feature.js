@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 function Feature() {
   return (
-    <div id="needle">
+    <div id="about">
 
 <section className="bg-gradient-to-r from-black to-gray-600 py-20">
   <div className="container mx-auto px-6 md:px-12 relative z-10 flex items-center py-32 xl:py-40">

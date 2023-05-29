@@ -11,7 +11,7 @@ function Hero() {
     className="mx-auto max-w-screen-xl px-4 py-2 lg:flex lg:h-screen lg:items-center"
   >
     <div className="mx-auto max-w-xl text-center">
-      <h1 className="text-3xl font-extrabold sm:text-5xl">
+      <h1 className="text-3xl font-extrabold sm:text-5xl pt-5">
         Welcome to Crowdpen:
         <strong className="font-extrabold text-red-700 sm:block">
           The Heartbeat of African Creativity
@@ -25,7 +25,7 @@ function Hero() {
       <div className="mt-8 flex flex-wrap justify-center gap-4">
         <a
           className="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
-          href="https://join.slack.com/t/crowdpenworkspace/shared_invite/zt-1u3da3b7a-rUkF93gzQLQJNW02H3rGZA"
+          href="https://discord.gg/VEqUXcXm9k"
         >
           Join the CrowdPen Revolution
         </a>
