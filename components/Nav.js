@@ -51,6 +51,10 @@ const Navbar = () => {
           <Link href="https://discord.gg/VEqUXcXm9k" className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4 px-3 cursor-pointer">
           Join Us
           </Link>
+
+          <Link href="/career" className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4 px-3 cursor-pointer">
+    Careers
+          </Link>
           {/* <Link href="/join-us" className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white px-3 cursor-pointer">
           Careers
           </Link> */}
