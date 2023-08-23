@@ -5,6 +5,7 @@ import CareerAction from '@/components/CareerAction';
 import Navbar from '@/components/Nav'
 import Footer from '@/components/Footer'
 import Image from 'next/legacy/image'
+import Head from "next/head"
 function Hero() {
 
   return (
