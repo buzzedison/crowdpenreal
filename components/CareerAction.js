@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from "next/link"
 
 function CareerAction() {
   return (
@@ -63,12 +63,12 @@ function CareerAction() {
         </p>
 
         <div className="text-center">
-          <a href="#" className="inline-block bg-red-500 text-white font-medium rounded-md px-6 py-3">
+          <Link href="https://discord.gg/2AsvjxV5" className="inline-block bg-red-500 text-white font-medium rounded-md px-6 py-3">
            APPLY NOW
-          </a>
-          <a href="#" className="inline-block bg-gray-200 text-gray-800 font-medium rounded-md px-6 py-3 ml-4">
+          </Link>
+          <Link href="/" className="inline-block bg-gray-200 text-gray-800 font-medium rounded-md px-6 py-3 ml-4">
             Learn More 
-          </a>
+          </Link>
         </div>
       </div>
     </section>

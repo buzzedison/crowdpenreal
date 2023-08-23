@@ -9,6 +9,9 @@ function Hero() {
 
   return (
     <>
+     <Head>
+      <title> Careers-CrowdPen</title>
+    </Head>
           <Navbar/>
       <div className="container mx-auto">
 
