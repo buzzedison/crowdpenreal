@@ -8,11 +8,13 @@ import Footer from '@/components/Footer'
 import Navbar from '@/components/Nav'
 import VideoPlayer from '@/components/CrowdVideo'
 import Head from "next/head"
+import GoogleAnalytics from './api/GoogleAnalytics'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
+    <GoogleAnalytics/>
     <Head>
       <title> CrowdPen</title>
     </Head>
