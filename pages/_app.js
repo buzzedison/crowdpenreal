@@ -1,18 +1,19 @@
 import '@/styles/globals.css'
 
-import { useEffect } from 'react';
-import { initGA, logPageView } from '../analytics';
+
+import GoogleAnalytics from "../components/GoogleAnalytics";
 
 function App({ Component, pageProps }) {
-  useEffect(() => {
-    if (!window.GA_INITIALIZED) {
-      initGA();
-      window.GA_INITIALIZED = true;
-    }
-    logPageView();
-  }, []);
+  
 
-  return <Component {...pageProps} />;
+  return (
+  <>
+  {process.env.NEXT_PUBLIC_GA_ID && (
+    <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+  )}
+  <Component {...pageProps} />
+</>
+  )
 }
 
 export default App;

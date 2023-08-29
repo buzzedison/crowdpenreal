@@ -1,15 +1,21 @@
-import { useEffect } from "react";
-import { Script } from "next/script";
+// GoogleAnalytics.js
+import Script from "next/script";
 
-export default function GoogleAnalytics() {
-  const trackingId = process.env.GA_TRACKING_ID;
+const GoogleAnalytics = ({ gaId }) => (
+  <>
+    <Script
+      async
+      src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+    ></Script>
+    <Script id="google-analytics">
+      {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', '${gaId}');
+      `}
+    </Script>
+  </>
+);
 
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = `https://www.googletagmanager.com/gtag/js?id=${trackingId}`;
-    script.async = true;
-    document.body.appendChild(script);
-  }, []);
-
-  return null;
-}
+export default GoogleAnalytics;
