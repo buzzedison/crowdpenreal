@@ -2,8 +2,9 @@
 import CreativeChaos from "../components/chaos/Creativechaos"
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Nav'
-import Expect from "@/components/chaos/Expect"
+
 import Schedule from "@/components/chaos/Schedule"
+import Tabs from "@/components/chaos/Tabs"
 import Head from "next/head"
 export default function chaos() {
   return (
@@ -13,7 +14,8 @@ export default function chaos() {
     </Head>
           <Navbar/>
         <CreativeChaos/>
-        <Expect/>
+        <Tabs/>
+   
         <Schedule/>
 
 <Footer/>
