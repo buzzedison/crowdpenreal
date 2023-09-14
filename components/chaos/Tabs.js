@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import Expect from './Expect';
+import Panelists from './Panelists';
+import DateAndDetails from './Date';
 
 const tabData = [
-  { name: 'panelists', label: 'Panelists', icon: '👥', content: <div>{/* Panelists tab content */}</div> },
+  { name: 'panelists', label: 'Panelists', icon: '👥', content: <div><Panelists/></div> },
   { name: 'highlights', label: 'Event Highlights', icon: '⭐', content: <Expect /> },
   { name: 'misfits', label: 'Creative Misfits', icon: '🎭', content: <div>Just misfits</div> },
-  { name: 'details', label: 'Date & Details', icon: '📅', content: <div>{/* Details tab content */}</div> },
+  { name: 'details', label: 'Date & Details', icon: '📅', content: <div><DateAndDetails/></div> },
   { name: 'tickets', label: 'Get Tickets', icon: '🎟️', content: <div>{/* Get Tickets tab content */}</div> },
 ];
 
