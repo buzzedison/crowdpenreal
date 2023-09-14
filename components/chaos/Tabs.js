@@ -2,19 +2,20 @@ import React, { useState } from 'react';
 import Expect from './Expect';
 import Panelists from './Panelists';
 import DateAndDetails from './Date';
+import Tickets from './Tickets';
 
 const tabData = [
   { name: 'panelists', label: 'Panelists', icon: '👥', content: <div><Panelists/></div> },
   { name: 'highlights', label: 'Event Highlights', icon: '⭐', content: <Expect /> },
-  { name: 'misfits', label: 'Creative Misfits', icon: '🎭', content: <div>Just misfits</div> },
+  
   { name: 'details', label: 'Date & Details', icon: '📅', content: <div><DateAndDetails/></div> },
-  { name: 'tickets', label: 'Get Tickets', icon: '🎟️', content: <div>{/* Get Tickets tab content */}</div> },
+  { name: 'tickets', label: 'Get Tickets', icon: '🎟️', content: <div><Tickets/></div> },
 ];
 
 const Tab = ({ label, icon, isActive, onClick }) => (
   <li className="mx-4">
     <button
-      className={`text-lg p-4 rounded-md ${isActive ? 'bg-gray-800 text-white' : 'text-gray-400 hover:bg-gray-300 hover:text-black'} transition duration-300 ease-in-out`}
+      className={`text-lg p-4 rounded-md ${isActive ? 'bg-gray-800 text-white' : 'text-gray-700 hover:bg-gray-300 hover:text-black'} transition duration-300 ease-in-out`}
       onClick={onClick}
     >
       <span className="mr-2">{icon}</span>{label}
