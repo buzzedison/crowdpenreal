@@ -1,4 +1,4 @@
-
+import Link from "next/link"
 
 function Schedule() {
   return (
@@ -17,10 +17,10 @@ function Schedule() {
     <div className="w-full md:w-1/3 px-4 mb-12">
       <div className="p-8 bg-gray-800 rounded">
         <h3 className="text-xl font-semibold mb-4">
-          8 AM - Espresso Your Ideas
+          10 AM - Powerful Networking
         </h3>
         <p className="text-sm">
-          Kickstart your creative juices with exotic coffees, chaos theory donuts, and caffeine-fueled conversations.  
+          Kickstart your creative juices with deep and fun networking sessions, conversations to get to know you.  
         </p>
       </div>
     </div>
@@ -28,7 +28,7 @@ function Schedule() {
     <div className="w-full md:w-1/3 px-4 mb-12">
       <div className="p-8 bg-gray-800 rounded">
         <h3 className="text-xl font-semibold mb-4">
-          9 AM - Harnessing Chaos, Crafting Tomorrow 
+          11 AM - Harnessing Chaos, Crafting Tomorrow 
         </h3>
         <p className="text-sm">
           Get ready to rip up the rulebook and embrace unpredictable innovation. This isn't your typical event...
@@ -39,10 +39,10 @@ function Schedule() {
     <div className="w-full md:w-1/3 px-4 mb-12">
       <div className="p-8 bg-gray-800 rounded">
         <h3 className="text-xl font-semibold mb-4">
-          10 AM - Hack Your Growth Mindset  
+          12 PM - Hack Your Growth Mindset  
         </h3>
         <p className="text-sm">
-          A high-intensity 30-minute workshop to expand your thinking and intensify your hunger for groundbreaking ideas.
+          Pop up group conversations, quick hackathons, and whatever we all decide to talk about
         </p>
       </div>
     </div>
@@ -52,9 +52,9 @@ function Schedule() {
   </div>
   
   <div className="text-center">
-    <a href="#" className="bg-red-700 text-white px-8 py-3 rounded-lg inline-block font-semibold hover:bg-indigo-600">
+    <Link href="https://events.teams.microsoft.com/event/67caa980-aa48-479a-9eec-bcb023d0e98c@0ff22ae2-bf0f-4aa2-91a1-2c3f1a83c6c6" className="bg-red-700 text-white px-8 py-3 rounded-lg inline-block font-semibold hover:bg-indigo-600">
       Get Tickets
-    </a>
+    </Link>
   </div>
 
 </div>

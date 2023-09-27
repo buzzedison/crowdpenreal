@@ -1,3 +1,4 @@
+import Link from "next/link"
 export default function Panelists() {
     return (
       <div className="container mx-auto px-2 md:px-24 py-16">
@@ -22,12 +23,12 @@ export default function Panelists() {
         </p>
   
         <div className="mt-8 text-center">
-          <a 
-            href="#"
+          <Link 
+            href="https://airtable.com/appioBVEy7quBVttq/shr6v9aTKfmhbYyck"
             className="inline-block bg-black text-white px-8 py-3 rounded-lg hover:bg-gray-600"
           >
             Apply to Be a Panelist
-          </a>
+          </Link>
         </div>
       </div>
     )
