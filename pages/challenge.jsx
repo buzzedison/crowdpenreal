@@ -25,8 +25,8 @@ export default function Signup() {
       {/* Top 3 Things */}
       <div className="container mx-auto mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="card bg-white shadow-2xl rounded-xl p-6 transform hover:scale-105 transition-transform">
-          <h2 className="text-2xl font-extrabold mb-4">Unleash Your Creativity</h2>
-          <p>Like never before.</p>
+          <h2 className="text-2xl font-extrabold mb-4">Win up to $100 </h2>
+          <p>Get rewarded for your writing.<br/>Like never before.</p>
         </div>
         <div className="card bg-white shadow-2xl rounded-xl p-6 transform hover:scale-105 transition-transform">
           <h2 className="text-2xl font-extrabold mb-4">Community Connection</h2>
