@@ -17,8 +17,13 @@ export default function Signup() {
         <h1 className="text-5xl font-extrabold text-center">
           Join the Ultimate Writing Challenge!
         </h1>
-        <p className="mt-4 text-center text-lg">
-          You could be one of 20 winners who receive up to $100 in cash prizes and perks!
+        <p className="mt-4 text-center text-2xl text-yellow-500">
+         Launching in December: A new web app for writers and creatives to earn from their work.
+
+<p className="mt-5 text-lg text-white">Imagine a platform that combines the best of Twitter and Medium, where you can share your writing, connect with other creatives, and earn money for your work. 
+  That's what we're building.</p>
+
+<p className="text-3xl font-bold mt-5">Join the Ultimate Writing Challenge Waiting List today for a chance to be one of 20 winners who receive up to $100 in cash prizes and perks! </p>
         </p>
       </div>
 
@@ -44,7 +49,7 @@ export default function Signup() {
           Ready to Join the Waitlist?
         </h2>
         <div className="text-center">
-          <Link href="/waiting-list">
+          <Link href="https://airtable.com/appioBVEy7quBVttq/shr31BYYElduFqHhR">
             <button className="px-8 py-4 text-lg font-bold bg-yellow-700 text-white rounded-full shadow-2xl">
               Sign Up Now
             </button>
